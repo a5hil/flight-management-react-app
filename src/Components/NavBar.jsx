@@ -12,10 +12,9 @@ const NavBar = () => {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div className="navbar-nav">
-                          {/* <Link className="nav-link" to="/">Home</Link> */}
-                          {/* <Link className="nav-link" to="/add-flight">Add Flight</Link> */}
-                          {/* <Link className="nav-link" to="/view-flights">View Flights</Link> */}
-                          <Link className="nav-link" to="/">View Flights</Link>
+                          <Link className="nav-link" to="/">Home</Link>
+                          <Link className="nav-link" to="/add-flight">Add Flight</Link>
+                          <Link className="nav-link" to="/view-flights">View Flights</Link>
                       </div>
                   </div>
               </div>
